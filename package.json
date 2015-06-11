@@ -1,0 +1,51 @@
+{
+  "name": "mesh-balance",
+  "version":  "0.0.1",
+  "description": "load balancing algorithms",
+  "main": "./lib/index.js",
+  "keywords": ["meshjs"],
+  "scripts": {
+    "test": "gulp lint test-coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crcn/mesh.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crcn/mesh.js/issues"
+  },
+  "homepage": "https://github.com/crcn/mesh.js",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.7.0",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "highland": "^2.4.0",
+    "karma": "^0.12.31",
+    "mesh-store-test-cases": "0.0.2",
+    "protoclass": "0.0.6",
+    "sinon": "^1.14.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^3.6.0"
+  },
+  "dependencies": {
+    "fast-event-emitter": "0.0.2",
+    "mesh": "^1.0.x",
+    "obj-stream": "0.0.x",
+    "protoclass": "0.0.6",
+    "sift": "^1.1.0",
+    "store": "^1.3.17",
+    "xtend": "^4.0.0"
+  }
+}
